@@ -1,0 +1,115 @@
+body {
+	background-color: #f8f8f8;
+}
+
+ul {
+	list-style: none;
+}
+
+li a, li {
+	color: grey;
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 14px;
+}
+
+li {
+	color: black;
+}
+
+h4 {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #eaeaea;
+	width: 250px;
+}
+
+.short_description {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.full_description {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.spec_1 {
+	/* list-style-image: url(img/spec.png); */
+	list-style-type: upper-roman;
+	color: blue;
+	font-size: 20px;
+	font-family: arial;
+}
+
+input[type=email], input[type=text] {
+	width: 100%;
+	height: 30px;
+}
+
+input {
+	color: green;
+	font-size: 16px;
+	font-style: italic;
+	width: 100%;
+}
+
+img {
+	border: 2px solid black;
+	padding: 20px;
+	background: grey;
+}
+
+
+
+
+/*Блочная модель 5 урок*/
+li a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+input[type="email"]:focus {
+	background-color: blue;
+}
+
+input[type="text"], textarea {
+	text-transform: capitalize;
+}
+
+table, td {
+	border: 1px solid black;	
+}
+
+td {
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	font-size: 30px;
+}
+
+tr:first-child td:first-child{
+	height: 100px;
+	background-color: red;
+}
+
+tr:first-child td:nth-child(2) {
+	width: 100px;
+	background-color: green;
+}
+
+/*Чтобы разобраться - http://htmlbook.ru/samcss/psevdoklassy*/
+
+/*дополнительное задание*/
+
+img:hover {
+	border: 2px solid white;
+}
+
+
